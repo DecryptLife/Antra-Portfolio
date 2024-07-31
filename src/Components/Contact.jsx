@@ -12,20 +12,16 @@ function Contact() {
                 Thank you for your interest in going through my profile. Your
                 feedbacks, suggestions and questions are always welcome.If you
                 wish to reach out to me feel free to email me directly at <br />
-                <a href="mailto:bt22@rice.edu">bt22@rice.edu</a> I make an
-                effort to respond to all messages within 24 hours, although it
-                may take me longer during busy periods. Finally, if you prefer
-                to connect on social media, you can find me on . I post regular
-                updates and engage with my followers there, so don't hesitate to
-                reach out. Thanks again for your interest, and I look forward to
-                hearing from you!
+                <a href="mailto:benson.thomas2602@gmail.com">
+                  benson.thomas2602@gmail.com
+                </a>{" "}
+                . I make an effort to respond to all messages within 24 hours,
+                although it may take me longer during busy periods. Thanks again
+                for your interest, and I look forward to hearing from you!
               </b>
             </p>
 
             <div className="social-media-icons">
-              <a href="https://www.linkedin.com/in/benson-engineered/">
-                <img src="./linkedin.svg"></img>
-              </a>
               <a href="https://github.com/DecryptLife">
                 <img src="./github.svg"></img>
               </a>
