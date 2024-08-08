@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Lively is a social media website that was created using the MERN stack. Implemented features like posting updates, following users, updating profiles, third party login, etc. \n Technologies used: HTML, CSS, React, MongoDB, Express, NodeJS, Cloudinary, PassportJS",
     image: "./lively2.gif",
-    link: "https://lively.btdcrypt.com",
+    link: "https://github.com/DecryptLife/Lively",
   },
   {
     title: "ReLearn",

@@ -11,7 +11,6 @@ function Projects() {
   });
 
   const handleProjectDisplay = (e) => {
-    console.log("In project display");
     if (e.target.value === "<") {
       setProjectID((prev) => (projectID === 0 ? 0 : prev - 1));
     } else if (e.target.value === ">") {
@@ -22,7 +21,6 @@ function Projects() {
   };
 
   useEffect(() => {
-    console.log("In use effect: ", projectID);
     if (projectID === 0) {
       setIsBtnDisabled((prev) => ({ ...prev, prev: true }));
     } else if (projectID === projects.length - 1) {
@@ -32,7 +30,6 @@ function Projects() {
     }
   }, [projectID]);
 
-  console.log(projectID);
   return (
     <section id="projects">
       <div className="container section-container">
